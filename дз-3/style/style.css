@@ -1,0 +1,294 @@
+body {
+    background-color: aliceblue;
+    font-size: 13.5px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    padding: 20px;
+}
+
+.header__icon {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 65px;
+    margin: 10px;
+}
+
+.text {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.header-account {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.header-account__gmail {
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    margin-top: 30px;
+}
+
+.main-menu {
+    min-width: 240px;
+    margin-right: 10px;
+}
+
+.main-menu__row a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    max-width: 250px;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+.main-menu__row a:hover {
+    background-color: rgb(248, 193, 193);
+}
+
+.text-menu {
+    font-size: 17px;
+}
+
+.main-information__row {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    width: 100%;
+    position: relative;
+}
+
+.main-information__row:hover {
+    background-color: rgb(221, 221, 221);
+
+}
+
+.row__icon img {
+    width: 17px;
+}
+
+.row__inform {
+    display: flex;
+}
+
+.inform__name {
+    margin: 15px;
+    min-width: 78px;
+}
+
+.inform__title {
+    margin: 15px 0 15px 50px;
+    min-width: 140px;
+    max-width: 155px;
+    width: 100vw;
+    display: inline-block;
+
+}
+
+.inform__subtitle {
+    margin: 15px 0px 15px 0;
+    overflow: hidden;
+    height: 17px;
+    color: rgb(152, 152, 153);
+    max-width: 600px;
+}
+
+.row__add {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    top: 10;
+    right: 0;
+    background-color: aliceblue;
+    width: 100px;
+    height: 50px;
+}
+
+.add__file {
+    margin: 0 6px 0 0;
+}
+
+.add__date {
+    min-width: 50px;
+}
+
+.add__file img {
+    width: 17px;
+}
+
+@media screen and (max-width:809px) {
+    .inform__name {
+        margin: 15px 8px 15px 8px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .main-menu__row a {
+        margin-left: 15px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .row__inform {
+        display: block;
+        margin: 0;
+        padding: 4px 7px 7px 0;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .inform__name {
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .inform__title {
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .inform__subtitle {
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .main-information__row {
+        display: flex;
+        align-items: start;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .row__icon img {
+        margin: 3px 10px 0 0;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .add__file {
+        margin-right: 20px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .row__add {
+        height: 55px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .main-menu {
+        max-width: 250px;
+        min-width: 170px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .header__icon img {
+        width: 40px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .text {
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .header-account__gmail {
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .header-account__photo img {
+        width: 40px;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .text-menu {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .main-menu {
+        max-width: 250px;
+        min-width: 90px;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .main-information__row {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .add__file {
+        margin-right: 3px;
+    }
+
+}
+
+@media screen and (max-width:430px) {
+    .inform__subtitle {
+        opacity: 0;
+    }
+
+}
+
+
+
+.main-information__row:hover .row__add {
+    background-color: rgb(221, 221, 221);
+}
